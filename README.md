@@ -1,3 +1,4 @@
+## script description
 This branch contains a release ready for publication. For automating, it uses the release.py script which does the following:
 
 1. Opens a release token json file which contains the following data about the release that we want to publish:
@@ -36,7 +37,7 @@ This branch contains a release ready for publication. For automating, it uses th
 
 7. run the publisher once to see if it's ok
 
-8. creates a folder called `./www` under the ig root (i.e. sibling to output, input, etc.)
+8. creates a folder called `./www` under the ig root (i.e. sibling to output, input, etc.) and change working directory to `www`
 
 9. copy the contents of the history template to the `./www` folder
 
@@ -70,4 +71,16 @@ This branch contains a release ready for publication. For automating, it uses th
 `java -jar ..\publisher.jar -publish-update -root . -folder www -registry ./ig-registry/fhir-ig-list.json -history ./fhir-ig-history-template'`
 
 17. at the end, replace the `assets-dist` folder content with the content of the `assets`
+
+
+.
+
+
+## Current issues
+At this moment this still has 2 issues:
+1. during the step 16 (publisher-update), it complains that `Source 'C:\work\ImplementationGuides\fhir\www\dist-hist' and destination 'C:\work\ImplementationGuides\fhir\www\dist-hist' are the same`
+2. it creates some fhiles with extension .json1, .json2, .xml1, .xml2 for every  artifact.
+
+
+
 
