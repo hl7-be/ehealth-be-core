@@ -1,5 +1,7 @@
 ## script description
-This branch contains a release ready for publication. For automating, it uses the release.py script which does the following:
+This branch contains a release ready for publication. 
+**To test this, the contents of this branch should be put in a folder called fhir** (because currently the script requires that the folder name is the same a the ig id)
+For automating, it uses the release.py script which does the following:
 
 1. Opens a release token json file which contains the following data about the release that we want to publish:
 ```json
