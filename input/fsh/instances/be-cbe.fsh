@@ -12,7 +12,7 @@ Usage: #definition
 * contact.telecom.use = #work
 * description = "BCE/KBO"
 * uniqueId[0].type = #uri
-* uniqueId[=].value = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/cbe"
+* uniqueId[=].value = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/cbe"
 * uniqueId[=].preferred = true
 * uniqueId[+].type = #oid
 * uniqueId[=].value = "2.16.840.1.113883.3.6777.5.5"

@@ -12,7 +12,7 @@ Usage: #definition
 * contact.telecom.use = #work
 * description = "NISS/INSZ"
 * uniqueId[0].type = #uri
-* uniqueId[=].value = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin"
+* uniqueId[=].value = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin"
 * uniqueId[=].preferred = true
 * uniqueId[+].type = #oid
 * uniqueId[=].value = "2.16.840.1.113883.3.6777.5.1"

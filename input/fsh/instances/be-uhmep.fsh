@@ -12,5 +12,5 @@ Usage: #definition
 * contact.telecom.use = #work
 * description = "UHMEP naming system"
 * uniqueId.type = #uri
-* uniqueId.value = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/uhmep"
+* uniqueId.value = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/uhmep"
 * uniqueId.preferred = true

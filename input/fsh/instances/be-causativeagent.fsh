@@ -1,7 +1,7 @@
 Instance: be-causativeagent
 InstanceOf: ValueSet
 Usage: #definition
-* url = "https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-causativeagent"
+* url = "https://www.ehealth.fgov.be/standards/fhir/core/ValueSet/be-causativeagent"
 * version = "1.0.0"
 * name = "BeCausativeAgent"
 * status = #active

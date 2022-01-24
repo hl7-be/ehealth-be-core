@@ -1,7 +1,7 @@
 Instance: be-vs-diarytopic
 InstanceOf: ValueSet
 Usage: #definition
-* url = "https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-vs-diarytopic"
+* url = "https://www.ehealth.fgov.be/standards/fhir/core/ValueSet/be-vs-diarytopic"
 * version = "1.0.0"
 * name = "BeVSDiaryTopic"
 * status = #active
@@ -16,7 +16,7 @@ Usage: #definition
 * description = "Codes supported by eHealth Platform differentiating types of communication topics."
 * jurisdiction = $m49.htm#056
 * jurisdiction.text = "Belgium"
-* compose.include.system = "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/be-cs-diarytopic"
+* compose.include.system = "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/be-cs-diarytopic"
 * compose.include.concept[0].code = #diabetes
 * compose.include.concept[=].designation[0].language = #en
 * compose.include.concept[=].designation[=].value = "diabetes"

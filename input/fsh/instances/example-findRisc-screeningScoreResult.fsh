@@ -4,12 +4,12 @@ Usage: #example
 * status = #final
 * category = $be-cs-score-category#risk "Risk score"
 * code = $sct#763117005 "FINDRISC (Finnish Diabetes Risk Score) score"
-* subject.identifier.system = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin"
+* subject.identifier.system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin"
 * subject.identifier.value = "111a-222b-333d"
 * subject.display = "Jane AAA"
 * effectivePeriod.start = "2020-10-06T13:28:17.239+02:00"
 * issued = "2020-10-06T13:28:17.239+02:00"
-* performer.identifier.system = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/nihdi"
+* performer.identifier.system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi"
 * performer.identifier.value = "111a-22b-33c"
 * performer.display = "AAAA BBBB"
 * valueInteger = 18

@@ -13,11 +13,11 @@ Description: "Belgian federal profile for a practitioner. Initially based on the
     NIHDI 0..* and
     SSIN 0..* and
     CBE 0..*
-* identifier[NIHDI].system = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/nihdi" (exactly)
+* identifier[NIHDI].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi" (exactly)
 * identifier[NIHDI].value 1..
-* identifier[SSIN].system = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin" (exactly)
+* identifier[SSIN].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin" (exactly)
 * identifier[SSIN].value 1..
-* identifier[CBE].system = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/cbe" (exactly)
+* identifier[CBE].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/cbe" (exactly)
 * identifier[CBE].value 1..
 * active ^definition = "Whether this practitioner's record is in active use. \r\n\r\nIt is RECOMMENDED to keep the value ‘true’ as long as the practitioner is still being treated by the provider of the data."
 * name 1..

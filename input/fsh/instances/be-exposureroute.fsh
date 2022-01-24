@@ -1,7 +1,7 @@
 Instance: be-exposureroute
 InstanceOf: ValueSet
 Usage: #definition
-* url = "https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-exposureroute"
+* url = "https://www.ehealth.fgov.be/standards/fhir/core/ValueSet/be-exposureroute"
 * version = "1.0.0"
 * name = "BeExposureRoute"
 * status = #active

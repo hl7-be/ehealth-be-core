@@ -1,7 +1,7 @@
 Instance: be-vs-score
 InstanceOf: ValueSet
 Usage: #definition
-* url = "https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-vs-score"
+* url = "https://www.ehealth.fgov.be/standards/fhir/core/ValueSet/be-vs-score"
 * version = "1.0.0"
 * name = "BeVSScore"
 * title = "Score Value Set"
@@ -82,4 +82,4 @@ Usage: #definition
 * compose.include[=].concept[=].display = "Arthritis Impact Measurement Scales 2 (AIMS2)"
 * compose.include[=].concept[=].designation.language = #fr-BE
 * compose.include[=].concept[=].designation.value = "(EMIR) Echelle de Mesure de l'Impact de la Polyarthrite Rhumatoïde"
-* compose.include[+].system = "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/be-cs-score"
+* compose.include[+].system = "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/be-cs-score"

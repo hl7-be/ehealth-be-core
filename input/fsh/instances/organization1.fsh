@@ -5,11 +5,11 @@ Usage: #example
 * meta.lastUpdated = "2019-07-01T13:30:55.864+00:00"
 * identifier[0].use = #official
 * identifier[=].type = $v2-0203#PRN "Provider Number"
-* identifier[=].system = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/cbe"
+* identifier[=].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/cbe"
 * identifier[=].value = "0425.222.333"
 * identifier[+].use = #official
 * identifier[=].type = $v2-0203#MD "Medical License number"
-* identifier[=].system = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/nihdi"
+* identifier[=].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi"
 * identifier[=].value = "999999999"
 * active = true
 * type = $cd-hcparty#orghospital

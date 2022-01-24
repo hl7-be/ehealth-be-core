@@ -37,8 +37,8 @@ if (not(os.path.exists(os.path.join('.','release.json')))):
 with open(os.path.join('.','release.json')) as fd:
     release = json.load(fd)     
 
-
-igrootfolder = os.path.join('..',release['ig'])
+igrootfolder = os.getcwd()
+#igrootfolder = os.path.join('..',release['ig'])
 
 # Variable: release.json.history-template / Default HL7
 
@@ -62,6 +62,19 @@ if (ig_source_repo!=''):
 history_template_repo = release['history_template_repo']
 
 ig_registry_repo = 'https://github.com/FHIR/ig-registry.git'
+
+
+
+# Try and build the IG just to see if it is ok
+if not(skip_1_build):
+  print('\n### Running the publisher to see if everything is ok')
+  result = os.system('java -jar ./input-cache/publisher.jar -ig ig.ini') 
+  if (result!=0):
+      print('Error: IG publication process not successful. Check the IG')
+      exit(2)
+
+  print('\n### Publisher ran ok')
+
 
 
 #### 1.1 ask user for missing variables
@@ -145,11 +158,11 @@ url_data = ig_url.split(ig_id)
 
 #checks
 ## url_data[2] must exist
-if url_data[2] != '':
-    exit(1)
+#if url_data[2] != '':
+#    exit(1)
 base = url_data[0]
 ig_canonical = url_data[0]+ig_id
-#print(ig_canonical);exit(1)
+
 # init a package_list dict
 new_package_list = {
   'package-id': ig_package_id,
@@ -197,21 +210,11 @@ os.chdir(igrootfolder)
 print(os.getcwd())
 
 
-# Try and build the IG
-if not(skip_1_build):
-  print('\n### Running the publisher to see if everything is ok')
-  result = os.system('java -jar ..\publisher.jar -ig ig.ini') 
-  if (result!=0):
-      print('Error: IG publication process not successful. Check the IG')
-      exit(2)
-
-  print('\n### Publisher ran ok')
-
 
 
 #3.5
 print('\n### Running the publisher to prepare the current version for publishing')
-os.system('java -jar ..\publisher.jar -ig ig.ini -publish '+ig_canonical+'/'+ig_version)
+os.system('java -jar ./input-cache/publisher.jar -ig ig.ini -publish '+ig_canonical+'/'+ig_version)
 
 
 #1.2 create webroot folder
@@ -232,7 +235,7 @@ print('\n### Reading and checking publish.ini')
 piinifilename=(os.path.join(webrootfolder, 'publish.ini'))
 if (os.path.exists(piinifilename)):
     publishini.read(piinifilename)
-    if (publishini['website']['url'] != ig_canonical):
+    if (publishini['website']['url'] != base):
         print ("URL in ig.ini does not match that of the IG")
         exit(7)
 else:
@@ -243,12 +246,11 @@ else:
     url = x
     org = y
     no-registry = 1
-
     [feeds]
     package = package-feed.xml
     publication = publication-feed.xml
     """)
-    publishini['website']['url'] = ig_canonical
+    publishini['website']['url'] = base
     publishini['website']['org'] = org
     with open(os.path.join('.',webrootfolder, 'publish.ini'), 'w') as inifile:
         publishini.write(inifile)
@@ -346,10 +348,10 @@ copytree('output', os.path.join(webrootfolder,ig_version,''),dirs_exist_ok=True,
 
 #3.9
 print('\n### Running the publication update procedure')
-#os.system('java -jar ..\publisher.jar -publish-update -folder '+ webrootfolder+ ' -registry ../ig-registry/fhir-ig-list.json -history ../fhir-ig-history-template -filter y')
+#os.system('java -jar ..\publisher.jar -publish-update -folder '+ webrootfolder+ ' -registry ../ig-registry/fhir-ig-list.json -history ../fhir-ig-history-template -noconfirm')
 
-print('java -jar ..\publisher.jar -publish-update -folder '+ webrootfolder +  ' -registry ./ig-registry/fhir-ig-list.json -history ./fhir-ig-history-template')
-os.system('java -jar ..\publisher.jar -publish-update -root . -folder '+ webrootfolder  + ' -registry ./ig-registry/fhir-ig-list.json -history ./fhir-ig-history-template')
+print('java -jar ./input-cache/publisher.jar -publish-update -folder '+ webrootfolder +  ' -registry ./ig-registry/fhir-ig-list.json -history ./fhir-ig-history-template -noconfirm')
+os.system('java -jar ./input-cache/publisher.jar -publish-update -root . -folder '+ webrootfolder  + ' -registry ./ig-registry/fhir-ig-list.json -history ./fhir-ig-history-template -noconfirm')
 
 
 #3.10
@@ -366,6 +368,4 @@ if (keep_release_token):
       copyfile(os.path.join('.','release.json'), ('../'+'release-'+ig_version+'.json'))
       os. remove(os.path.join('.','release.json'))
 
-
 exit(0)
-

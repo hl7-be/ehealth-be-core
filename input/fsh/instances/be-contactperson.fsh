@@ -1,7 +1,7 @@
 Instance: be-contactperson
 InstanceOf: ValueSet
 Usage: #definition
-* url = "https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-contactperson"
+* url = "https://www.ehealth.fgov.be/standards/fhir/core/ValueSet/be-contactperson"
 * version = "1.0.0"
 * name = "BeContactPerson"
 * status = #active
@@ -14,7 +14,7 @@ Usage: #definition
 * compose.include[=].filter.property = #concept
 * compose.include[=].filter.op = #is-not-a
 * compose.include[=].filter.value = "O"
-* compose.include[+].system = "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-contact-person"
+* compose.include[+].system = "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-contact-person"
 * compose.include[=].concept[0].code = #father
 * compose.include[=].concept[=].designation.language = #en
 * compose.include[=].concept[=].designation.value = "father"

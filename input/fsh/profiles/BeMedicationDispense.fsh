@@ -1,6 +1,6 @@
-Alias: $be-patient = https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-patient
-Alias: $be-organization = https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-organization
-Alias: $be-practitioner = https://www.ehealth.fgov.be/standards/fhir/StructureDefinition/be-practitioner
+Alias: $be-patient = https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient
+Alias: $be-organization = https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization
+Alias: $be-practitioner = https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitioner
 
 
 Profile:        BeMedicationDispense
@@ -70,7 +70,7 @@ Description: "Defines constraints and extensions on the Medication Dispense reso
 
 Invariant:  performer-nidhi
 Description: "When an organization is referred to by use of an identifier, the naming system SHOULD be NIHDI number"
-Expression: "actor.identifier.exists() implies (actor.identifier.system='https://www.ehealth.fgov.be/standards/fhir/NamingSystem/nihdi-organization' or  actor.identifier.system='https://www.ehealth.fgov.be/standards/fhir/NamingSystem/nihdi-practitioner'"
+Expression: "actor.identifier.exists() implies (actor.identifier.system='https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi-organization' or  actor.identifier.system='https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi-practitioner'"
 Severity:   #warning
 
 /*
