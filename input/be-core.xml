@@ -10,7 +10,7 @@
   <version value="1.2.2"/>
   <name value="BeFHIReHealthCore"/>
   <title value="Belgium eHealth FHIR Core specifications"/>
-  <status value="release"/>
+  <status value="active"/>
   <experimental value="false"/>
   <publisher value="eHealth"/>
   <contact>
