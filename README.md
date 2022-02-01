@@ -16,3 +16,4 @@ Issues and change requests are managed here:
 Issues:  __https://github.com/hl7-be/ehealth-be-core/issues__  
 Kanban board:  __https://github.com/hl7-be/ehealth-be-core/projects/1__  
 
+ 
