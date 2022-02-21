@@ -4,10 +4,10 @@ Usage: #inline
 * meta.versionId = "1"
 * meta.lastUpdated = "2019-07-01T13:30:55.864+00:00"
 * identifier[0].use = #official
-* identifier[=].system = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin"
+* identifier[=].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin"
 * identifier[=].value = "79121137740"
 * identifier[+].use = #official
-* identifier[=].system = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/nihdi"
+* identifier[=].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi"
 * identifier[=].value = "18749704477"
 * name.use = #official
 * name.family = "Pulaski"

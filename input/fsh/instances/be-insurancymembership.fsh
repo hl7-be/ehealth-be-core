@@ -12,5 +12,5 @@ Usage: #definition
 * contact.telecom.use = #work
 * description = "Membership number of a patient with an insurance organization"
 * uniqueId.type = #uri
-* uniqueId.value = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/insurancymembership"
+* uniqueId.value = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/insurancymembership"
 * uniqueId.preferred = true

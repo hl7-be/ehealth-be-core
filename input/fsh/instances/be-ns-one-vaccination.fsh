@@ -16,5 +16,5 @@ Usage: #definition
 * jurisdiction.coding[0] = $m49.htm#056
 * jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
 * uniqueId.type = #uri
-* uniqueId.value = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/one-vaccination"
+* uniqueId.value = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/one-vaccination"
 * uniqueId.preferred = true

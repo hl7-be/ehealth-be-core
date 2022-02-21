@@ -15,7 +15,7 @@ Description: "Belgian federal profile for a practitioner role. Initially based o
     CD-HCPARTY 0..* and
     SNOMED-CT 0..*
 * code[CD-HCPARTY] ^definition = "Roles which this practitioner is authorized to perform for the organization."
-* code[CD-HCPARTY].coding.system = "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty" (exactly)
+* code[CD-HCPARTY].coding.system = "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty" (exactly)
 * code[CD-HCPARTY].coding.code 1..
 * code[SNOMED-CT].coding.system = "http://snomed.info/sct" (exactly)
 * code[SNOMED-CT].coding.code 1..

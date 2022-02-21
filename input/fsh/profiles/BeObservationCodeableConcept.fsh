@@ -15,5 +15,5 @@ In general, it shall be noted SNOMED-CT is the preferred national terminology. O
 * coding[LOINC].code 1..
 * coding[SNOMED-CT].system = "http://snomed.info/sct" (exactly)
 * coding[SNOMED-CT].code 1..
-* coding[ALBERTCODE].system = "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/albert" (exactly)
+* coding[ALBERTCODE].system = "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/albert" (exactly)
 * coding[ALBERTCODE].code 1..

@@ -1,7 +1,7 @@
 Instance: be-riskmanifestation
 InstanceOf: ValueSet
 Usage: #definition
-* url = "https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-riskmanifestation"
+* url = "https://www.ehealth.fgov.be/standards/fhir/core/ValueSet/be-riskmanifestation"
 * version = "1.0.0"
 * name = "BeRiskManifestation"
 * status = #active

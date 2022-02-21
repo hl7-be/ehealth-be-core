@@ -1,7 +1,7 @@
 Instance: be-noallergy
 InstanceOf: ValueSet
 Usage: #definition
-* url = "https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-noallergy"
+* url = "https://www.ehealth.fgov.be/standards/fhir/core/ValueSet/be-noallergy"
 * version = "1.0.0"
 * name = "BeNoAllergy"
 * status = #active

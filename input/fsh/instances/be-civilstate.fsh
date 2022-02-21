@@ -1,7 +1,7 @@
 Instance: be-civilstate
 InstanceOf: ValueSet
 Usage: #definition
-* url = "https://www.ehealth.fgov.be/standards/fhir/ValueSet/be-civilstate"
+* url = "https://www.ehealth.fgov.be/standards/fhir/core/ValueSet/be-civilstate"
 * version = "1.0.0"
 * name = "BeCivilstate"
 * status = #active
@@ -9,7 +9,7 @@ Usage: #definition
 * contact.name = "eHealth Platform"
 * contact.telecom.system = #url
 * contact.telecom.value = "https://www.ehealth.fgov.be/standards/kmehr/en"
-* description = "Codes supported by eHealth Platform differentiating types of civil state. This valueset supports the Belgian federal FHIR profiling effort. Whenever possible add a code from http://terminology.hl7.org/CodeSystem/v3-MaritalStatus for international interoperability but also use https://www.ehealth.fgov.be/standards/fhir/CodeSystem/CD-CIVILSTATE for the Belgian specific code."
+* description = "Codes supported by eHealth Platform differentiating types of civil state. This valueset supports the Belgian federal FHIR profiling effort. Whenever possible add a code from http://terminology.hl7.org/CodeSystem/v3-MaritalStatus for international interoperability but also use https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/CD-CIVILSTATE for the Belgian specific code."
 * compose.include[0].system = "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"
 * compose.include[=].concept[0].code = #A
 * compose.include[=].concept[=].designation[0].language = #en
@@ -46,7 +46,7 @@ Usage: #definition
 * compose.include[=].concept[=].designation[=].value = "Weduwnaar/weduwe"
 * compose.include[=].concept[=].designation[+].language = #fr-BE
 * compose.include[=].concept[=].designation[=].value = "Veuf/veuve"
-* compose.include[+].system = "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-civilstate"
+* compose.include[+].system = "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-civilstate"
 * compose.include[=].concept[0].code = #10
 * compose.include[=].concept[=].designation[0].language = #en
 * compose.include[=].concept[=].designation[=].value = "Unmarried"

@@ -14,13 +14,13 @@ Description: "Belgian federal profile for an organization. Initially based on th
     CBE 0..* and
     SSIN 0..* and
     EHP 0..*
-* identifier[NIHDI].system = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/nihdi" (exactly)
+* identifier[NIHDI].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi" (exactly)
 * identifier[NIHDI].value 1..
-* identifier[CBE].system = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/cbe" (exactly)
+* identifier[CBE].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/cbe" (exactly)
 * identifier[CBE].value 1..
-* identifier[SSIN].system = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin" (exactly)
+* identifier[SSIN].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin" (exactly)
 * identifier[SSIN].value 1..
-* identifier[EHP].system = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ehp" (exactly)
+* identifier[EHP].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ehp" (exactly)
 * identifier[EHP].value 1..
 * active ^definition = "Whether the organization's record is still in active use.\r\nIt is RECOMMENDED to keep the value ‘true’ as long as the organization is known to be active."
 * type ^slicing.discriminator.type = #value
@@ -28,7 +28,7 @@ Description: "Belgian federal profile for an organization. Initially based on th
 * type ^slicing.rules = #open
 * type ^definition = "The kind(s) of organization that this is.\r\n\r\nProposed use of CD-HCPARTY to type the organisation using dept... or org... codes. Other systems remain allowed.\r\nIn typical use, RECOMMENDED to type the organization.\r\nIn the future, specific other systems might also be proposed from a federal level to better type an organization."
 * type contains CD-HCPARTY 0..*
-* type[CD-HCPARTY].coding.system = "https://www.ehealth.fgov.be/standards/fhir/CodeSystem/cd-hcparty" (exactly)
+* type[CD-HCPARTY].coding.system = "https://www.ehealth.fgov.be/standards/fhir/core/CodeSystem/cd-hcparty" (exactly)
 * type[CD-HCPARTY].coding.code 1..1
 * telecom ^definition = "A contact detail for the organization.\r\n\r\nIt is RECOMMENDED to at least add one phone or email address."
 * address only BeAddress

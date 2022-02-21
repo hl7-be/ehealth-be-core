@@ -13,7 +13,7 @@ Usage: #example
 * extension[=].extension.valueCodeableConcept = $cd-fed-country#BE "Belgium"
 * identifier[0].use = #official
 * identifier[=].type = $v2-0203#SB "Social Beneficiary Identifier"
-* identifier[=].system = "https://www.ehealth.fgov.be/standards/fhir/NamingSystem/ssin"
+* identifier[=].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin"
 * identifier[=].value = "79121137740"
 * identifier[+].use = #usual
 * identifier[=].type = $v2-0203#MR "Medical record number"
