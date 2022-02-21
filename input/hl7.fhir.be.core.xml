@@ -8,7 +8,7 @@
   <url value="https://www.ehealth.fgov.be/standards/fhir/core/ImplementationGuide/core"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="2.0.0"/>
-  <name value="be.ehealth.fhir.core.ig"/>
+  <name value="hl7.fhir.be.core.ig"/>
   <title value="eHealth Platform Federal Core Profiles"/>
   <status value="active"/>
   <experimental value="false"/>
@@ -17,7 +17,7 @@
     <telecom>
       <!-- Or whatever URL and/or email address(es) are appropriate -->
       <system value="url"/>
-      <value value="https://www.ehealth.fgov.be/standards/fhir"/>
+      <value value="https://www.ehealth.fgov.be/standards/fhir/core"/>
     </telecom>
   </contact>
   <description value="eHealth Platform Federal Core Profiles"/>
@@ -33,7 +33,7 @@
       -->
     </coding>
   </jurisdiction>
-  <packageId value="be.ehealthplatform.fhir.be-core"/>
+  <packageId value="hl7.fhir.be.core"/>
   <!-- This should be changed to 'not-open-source' or another license if appropriate for non-HL7-published content -->
   <license value="CC0-1.0"/>
   <!-- This is whatever FHIR version(s) the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->
