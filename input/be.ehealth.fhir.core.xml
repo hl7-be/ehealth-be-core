@@ -8,7 +8,7 @@
   <url value="https://www.ehealth.fgov.be/standards/fhir/core/ImplementationGuide/core"/>
   <!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
   <version value="2.0.0"/>
-  <name value="be.ehealthplatform.fhir.be-core.ig"/>
+  <name value="be.ehealth.fhir.core.ig"/>
   <title value="eHealth Platform Federal Core Profiles"/>
   <status value="active"/>
   <experimental value="false"/>
