@@ -1,3 +1,23 @@
-<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
-
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../src-generated/schemas/fhir-single.xsd">
+	<p>
+		This provides a list of changes to the specification since its initial release
+	</p>
+	<p>
+		<b>2022-XX-XX v2.0.0 - Published </b> based on FHIR R4
+	</p>
+	<ul>
+		<li>Evolution for .</li>
+	</ul>
+	<p>
+		<b>2020-09-25 v1.1.0 - Published </b> based on FHIR R4
+	</p>
+	<ul>
+		<li>Evolution for CD-HCPARTY, CD-FED-COUNTRY.</li>
+	</ul>
+	<p>
+		<b>2019-12-20 v1.0.0 - Published </b> based on FHIR R4
+	</p>
+	<ul>
+		<li>First published release</li>
+	</ul>
 </div>
