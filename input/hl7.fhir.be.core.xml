@@ -67,6 +67,11 @@
         <title value="Guidance"/>
         <generation value="html"/>
       </page>
+      <page>
+        <nameUrl value="conventions.html"/>
+        <title value="Conventions"/>
+        <generation value="markdown"/>
+      </page>
     </page>
     <!-- copyright year is a mandatory parameter -->
     <parameter>
