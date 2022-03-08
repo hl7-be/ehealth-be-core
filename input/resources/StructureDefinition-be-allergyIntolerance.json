@@ -74,6 +74,7 @@
             {
                 "id": "AllergyIntolerance.recorder",
                 "path": "AllergyIntolerance.recorder",
+                "short": "Who recorded the sensitivity. Should be a person. When all is known is an Organization, the PractitionerRole shall be used.",
                 "definition": "Individual who recorded the record and takes responsibility for its content.\r\n\r\nA provider SHALL include it in the istance and a consumer SHALL record this in its consuming system.\r\n\r\nWhen the recorder is an Organization (notably when all that is known or desired to be exchanged is the Organization and not the specific person), the recorder SHALL be a PractitionerRole, which can then point to an Organization.",
                 "comment": "References SHALL be a reference to an actual FHIR resource, and SHALL be resolveable (allowing for access control, temporary unavailability, etc.). Resolution can be either by retrieval from the URL, or, where applicable by resource type, by treating an absolute reference as a canonical URL and looking it up in a local registry/repository.\r\n\r\nSpecial remarks for KMEHR users:\r\nThis is the 'author' concept in a KMEHR message as the FHIR recorder is the party taking responsibility.",
                 "min": 1,
