@@ -6,4 +6,4 @@ id: hl7.fhir.be.core
 name: EhealthFgovStandardsFhir
 status: active
 version: 2.0.0
-jurisdiction: urn:iso:std:iso:3166#BE "null"
+jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
