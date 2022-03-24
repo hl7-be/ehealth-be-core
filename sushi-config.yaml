@@ -1,9 +1,11 @@
 canonical: https://www.ehealth.fgov.be/standards/fhir/core
 fhirVersion: 4.0.1
-FSHOnly: true
+FSHOnly: false
 applyExtensionMetadataToRoot: false
 id: hl7.fhir.be.core
 name: EhealthFgovStandardsFhir
 status: active
 version: 2.0.0
 jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
+copyrightYear: 2022+
+releaseLabel: draft
