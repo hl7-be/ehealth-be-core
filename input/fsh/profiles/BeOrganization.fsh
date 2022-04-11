@@ -1,6 +1,7 @@
 Profile: BeOrganization
 Parent: Organization
 Id: be-organization
+Title: "Organisation core BE profile"
 Description: "Belgian federal profile for an organization. Initially based on the functional description of the NIHDI."
 * ^version = "1.0.0"
 * ^status = #active

@@ -85,4 +85,4 @@ Usage: #example
 * contact.telecom.system = #phone
 * contact.telecom.value = "+31201234567"
 * contact.telecom.use = #mobile
-* generalPractitioner = Reference(Practitioner/01)
+* generalPractitioner = Reference(practitioner1)
