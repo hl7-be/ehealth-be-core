@@ -1,7 +1,7 @@
 Profile: BePatient
 Parent: Patient
 Id: be-patient
-Title: "Patient core BE profile"
+Title: "BePatient"
 Description: "Belgian federal profile for a patient. Initially based on the functional description of the NIHDI. Special remarks for KMEHR users: following elements in KMEHR are not available in this FHIR resource. If needed, an extension can be defined in a future iteration of these specifications: the 'deathlocation' (location is not available but the death of the patient is expressed by either date or Boolean cfr. infra.), the 'insurancystatus' (covered in a seperate FHIR resource: Coverage), 'insurancymembership' (covered in a seperate FHIR resource: Coverage) and 'profession' (covered in a possible future FHIR resource: OccupationalData.)"
 * ^version = "1.0.1"
 * extension ^slicing.discriminator.type = #value
