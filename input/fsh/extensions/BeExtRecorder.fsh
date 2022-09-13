@@ -10,7 +10,7 @@ Description: "The recorder of the information - note that this may not always be
 * ^contact[=].telecom.value = "https://www.ehealth.fgov.be"
 * ^contact[+].name = "Message structure"
 * ^contact[=].telecom.system = #email
-* ^contact[=].telecom.value = "message-structure@ehealth.fgov.be"
+* ^contact[=].telecom.value = "support@be-ehealth-standards.atlassian.net"
 * ^jurisdiction.coding[0] = $m49.htm#056
 * ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
 * value[x] only CodeableConcept or Reference

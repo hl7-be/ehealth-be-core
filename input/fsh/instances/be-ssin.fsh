@@ -8,7 +8,7 @@ Usage: #definition
 * publisher = "eHealth Platform"
 * contact.name = "eHealth Platform"
 * contact.telecom.system = #email
-* contact.telecom.value = "message-structure@ehealth.fgov.be"
+* contact.telecom.value = "support@be-ehealth-standards.atlassian.net"
 * contact.telecom.use = #work
 * description = "NISS/INSZ"
 * uniqueId[0].type = #uri

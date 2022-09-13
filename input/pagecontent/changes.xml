@@ -3,7 +3,13 @@
 		This provides a list of changes to the specification since its initial release
 	</p>
 	<p>
-		<b>2022-XX-XX v2.0.0 - Published </b> based on FHIR R4
+		<b>2022-09-16 v2.0.1 - Published </b> based on FHIR R4
+	</p>
+	<ul>
+		<li>Evolution for PatientRelationShipType valueset.</li>
+	</ul>
+	<p>
+		<b>2022-06-09 v2.0.0 - Published </b> based on FHIR R4
 	</p>
 	<ul>
 		<li>Evolution for .</li>

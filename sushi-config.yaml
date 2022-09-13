@@ -1,3 +1,4 @@
+
 # ╭─────────────────────────────────ImplementationGuide-fish.json──────────────────────────────────╮
 # │  The properties below are used to create the ImplementationGuide resource.                     │
 # │  For a list of supported properties, see:                                                      │
@@ -38,15 +39,15 @@ releaseLabel: STU1
 # will be translated into IG.contact values.
 publisher:
   name: eHealth Platform 
-  url: https://www.ehealth.fgov.be
-  email: message-structure@www.ehealth.fgov.be
+  url: https://www.ehealth.fgov.be/standards/fhir
+  email: support@be-ehealth-standards.atlassian.net
 
 # ContactDetail is required by the template.
 contact:
-  - name: Message-Structure
+  - name: Message Structure eHealth
     telecom:
       - system: email
-        value: message-structure@www.ehealth.fgov.be
+        value: support@be-ehealth-standards.atlassian.net
         use: work
 
 # The jurisdiction can be a single item or a list. The FHIR Shorthand
@@ -161,12 +162,14 @@ pages:
 menu:
   Home: index.html
   Guidance: guidance.html
+  Conventions: conventions.html
   Artifacts:
     Profiles: artifacts.html#2
     Extensions: artifacts.html#3
     Value Sets: artifacts.html#4
   Downloads: downloads.html
-#  History: http://hl7.org/fhir/us/example/history.html
+  Changes: changes.html
+  History: https://www.ehealth.fgov.be/standards/fhir/core/history.html
 
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide

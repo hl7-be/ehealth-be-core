@@ -25,7 +25,7 @@
 <!--
 <blockquote class="stu-note">
   <a name="dstu"></a>
-Contact <a href="mailto:message-structure@ehealth.fgov.be">message-structure@ehealth.fgov.be</a> for any questions concerning this IG.
+Contact <a href="mailto:support@be-ehealth-standards.atlassian.net">support@be-ehealth-standards.atlassian.net</a> for any questions concerning this IG.
 The working groups of HL7 and the different interested parties are still defining the process, the requirements and the tooling. This is a placeholder or sandbox for content, and not any recommendation or preview, so there is no guarantee of completeness or correctness.
 </blockquote>
 -->
@@ -41,7 +41,7 @@ base specifications of the HL7 FHIR standard – the pages by HL7 are considered
 
 <p>Implementers are encouraged to study the descriptions of the various
 FHIR resources published by HL7, the published Belgian “be-“ profiles here and to
-signal <a href="mailto:message-structure@ehealth.fgov.be">message-structure@ehealth.fgov.be</a>
+signal <a href="mailto:support@be-ehealth-standards.atlassian.net">support@be-ehealth-standards.atlassian.net</a>
 concerning any ambiguities or initiatives that go outside of that realm. </p>
 
 <p>Implementers SHALL take note every instance of a resource SHALL always
@@ -118,7 +118,7 @@ This specification contains:
 	<a name="disclaimer"> </a>
 	<h3>Disclaimer</h3>
 	<p>
-    The specification herewith documented is the first published version of the Belgian profiling initiative. Every effort has been made to remain within the FHIR standard and to be enabling in nature above all else. It is expected there will be further clarifications and guidelines in the future. Should an implementation encounter ambiguities due to this guide, your feedback is most welcome on <a href="mailto:message-structure@ehealth.fgov.be">message-structure@ehealth.fgov.be</a>. 
+    The specification herewith documented is the first published version of the Belgian profiling initiative. Every effort has been made to remain within the FHIR standard and to be enabling in nature above all else. It is expected there will be further clarifications and guidelines in the future. Should an implementation encounter ambiguities due to this guide, your feedback is most welcome on <a href="mailto:support@be-ehealth-standards.atlassian.net">support@be-ehealth-standards.atlassian.net</a>. 
   </p>
   
 </div>

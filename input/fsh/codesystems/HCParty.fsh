@@ -11,7 +11,7 @@ Description: "healthcare party in Belgium."
 * ^contact[=].telecom.value = "https://www.ehealth.fgov.be"
 * ^contact[+].name = "Message structure"
 * ^contact[=].telecom.system = #email
-* ^contact[=].telecom.value = "message-structure@ehealth.fgov.be"
+* ^contact[=].telecom.value = "support@be-ehealth-standards.atlassian.net"
 * ^content = #complete
 * #deptanatomopathology "anatomopathology"
 * #deptanatomopathology ^designation[0].language = #en
