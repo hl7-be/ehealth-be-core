@@ -1,6 +1,6 @@
 CodeSystem: Cdfedcountry
 Id: cd-fed-country
-Title: "CodeSystem CD-FED-COUNTRY"
+Title: "BeCdFedCountry"
 Description: "FedICT country codes."
 * ^version = "1.1.0"
 * ^status = #active

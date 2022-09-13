@@ -1,6 +1,6 @@
 CodeSystem: ContactPerson
 Id: cd-contact-person
-Title: "ContactPerson"
+Title: "BeCdContactPerson"
 Description: "Contact person in Belgium."
 * ^version = "1.2"
 * ^status = #active

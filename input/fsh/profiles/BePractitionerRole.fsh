@@ -1,7 +1,7 @@
 Profile: BePractitionerRole
 Parent: PractitionerRole
 Id: be-practitionerrole
-Title: "Practitioner role core BE profile"
+Title: "BePractitionerRole"
 Description: "Belgian federal profile for a practitioner role. Initially based on the functional description of the NIHDI."
 * ^version = "1.0.0"
 * ^status = #active

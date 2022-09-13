@@ -1,6 +1,6 @@
 CodeSystem: CivilState
 Id: cd-civilstate
-Title: "CivilState"
+Title: "BeCdCivilState"
 Description: "Civil state in Belgium."
 * ^version = "1.0"
 * ^status = #active

@@ -1,7 +1,7 @@
 Profile: BeProvenance
 Parent: Provenance
 Id: be-provenance
-Title: "Provenance core BE profile"
+Title: "BeProvenance"
 Description: """Belgian federal profile for a provenance. Note this profile does not introduce any changes from the base profile but has been created to mark its importance, 
 specifically when FHIR is used in a non-document approach. General use case remarks: 'Provenance of a resource is a record that describes entities and processes involved in producing and delivering or 
 otherwise influencing that resource.' (cfr. the HL7 base specifications) According to the FHIR specifications, the provenance resource SHALL only be provided when no other resource already plays this role: 
