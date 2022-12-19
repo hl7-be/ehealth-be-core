@@ -1,6 +1,6 @@
-Empty IG
+BE Core IG
 ---
-This is an empty IG
+This is the BE core FHIR IG
 <br> </br>
 ###
 ### Publication
