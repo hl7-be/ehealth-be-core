@@ -197,6 +197,6 @@ parameters:
   apply-jurisdiction: true
   apply-publisher: true
   apply-version: true
-
+  ipa-comparison: "{last}" # "{current}" | "{last}"
 
 
