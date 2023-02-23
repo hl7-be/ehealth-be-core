@@ -1113,3 +1113,13 @@ Description: "healthcare party in Belgium."
 * #orgpolyclinic ^designation[=].value = "polyclinique"
 * #orgpolyclinic ^designation[+].language = #de
 * #orgpolyclinic ^designation[=].value = "Poliklinik"
+//orgpharmacyinvoicingoffice
+* #orgpolyclinic "pharmacy invoicing office"
+* #orgpolyclinic ^designation[0].language = #en
+* #orgpolyclinic ^designation[=].value = "pharmacy invoicing office"
+* #orgpolyclinic ^designation[+].language = #nl-BE
+* #orgpolyclinic ^designation[=].value = "facturatie kantoor apotheek"
+* #orgpolyclinic ^designation[+].language = #fr-BE
+* #orgpolyclinic ^designation[=].value = "office de tarification"
+* #orgpolyclinic ^designation[+].language = #de
+* #orgpolyclinic ^designation[=].value = "Rechnungstelle für Apotheken"
