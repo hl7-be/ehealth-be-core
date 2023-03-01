@@ -2,6 +2,7 @@ ValueSet: BeVSCareLocation
 Id: be-vs-care-location
 Title: "Care Location Value Set"
 Description: "Care Location Value Set"
+* ^experimental = false
 * ^version = "1.0.0"
 * ^status = #active
 * ^date = "2021-01-10T10:59:49+00:00"
