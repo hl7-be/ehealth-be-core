@@ -14,6 +14,7 @@ Description: "Describes the patient relationship type (the relation between the 
 * ^contact[=].telecom.value = "message-structure@ehealth.fgov.be"
 * ^jurisdiction.coding[0] = $m49.htm#056
 * ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
+* ^experimental = false
 * include $sct#444191003
 * include $sct#444304005
 * include $sct#444295003
