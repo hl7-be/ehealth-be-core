@@ -1,6 +1,6 @@
 Instance: be-contactperson
 InstanceOf: ValueSet
-Title: ContactPerson
+Title: "ContactPerson"
 Usage: #definition
 * experimental = false
 * url = "https://www.ehealth.fgov.be/standards/fhir/core/ValueSet/be-contactperson"
