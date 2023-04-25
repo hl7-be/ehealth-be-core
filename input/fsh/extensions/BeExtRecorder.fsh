@@ -16,3 +16,5 @@ Description: "The recorder of the information - note that this may not always be
 * value[x] only CodeableConcept or Reference
 * valueReference 0..1
 * valueReference only Reference(BePatient or BePractitioner or BeOrganization)
+* ^context.type = #element
+* ^context.expression = "Resource"
