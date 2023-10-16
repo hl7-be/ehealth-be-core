@@ -13,3 +13,8 @@ INFORMATION: Patient/example: Patient.name[1]: This element does not match any k
 # If this was a real IG, there should be examples for these profiles too.  But it's not, and I'm lazy...
 WARNING: http://somewhere.org/fhir/uv/myig/StructureDefinition/myObservation: The Implementation Guide contains no examples for this profile
 WARNING: http://somewhere.org/fhir/uv/myig/StructureDefinition/mypractitioner: The Implementation Guide contains no examples for this profile
+
+# irrelevant ERRORS
+Unable to resolve resource with reference 'https://www.anotherfhirserver.be/fhir/Practitioner/01'
+Unable to resolve resource with reference 'Practitioner/2/_history/1'
+Unable to resolve resource with reference 'https://www.anotherfhirserver.be/fhir/Organization/02'

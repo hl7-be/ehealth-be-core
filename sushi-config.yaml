@@ -17,7 +17,7 @@ description: "eHealth Platform Federal Core Profiles"
 status: active
 license: CC0-1.0
 date: 2022-09-01
-version: 2.0.1
+version: 2.1.0
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
 # it can be a single item OR and array here (but so far SUSHI only
@@ -191,12 +191,13 @@ FSHOnly: false
 #applyExtensionMetadataToRoot: false
 
 parameters:
-  show-inherited-invariants: false
-  shownav: true
-  apply-contact: true
-  apply-jurisdiction: true
-  apply-publisher: true
-  apply-version: true
+  shownav: 'true'
+  apply-contact: 'true'
+  apply-jurisdiction: 'true'
+  apply-publisher: 'true'
+  apply-version: 'true'
+  propagate-status: true
+  display-warnings: true
 
 
 
