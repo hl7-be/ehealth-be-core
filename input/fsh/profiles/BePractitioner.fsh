@@ -20,6 +20,7 @@ Description: "Belgian federal profile for a practitioner. Initially based on the
 * identifier[SSIN].value 1..
 * identifier[CBE].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/cbe" (exactly)
 * identifier[CBE].value 1..
+* identifier obeys be-inv-NIHDI and be-inv-SSIN and be-inv-CBE
 * active ^definition = "Whether this practitioner's record is in active use. \r\n\r\nIt is RECOMMENDED to keep the value ‘true’ as long as the practitioner is still being treated by the provider of the data."
 * name 1..
 * name ^definition = "The name(s) associated with the practitioner.\r\n\r\nTypically RECOMMENDED to include one familyname and at least one given name and to define this use as ‘official’."
