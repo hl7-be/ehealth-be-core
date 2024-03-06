@@ -13,4 +13,6 @@ Description: "FedICT country codes."
 * ^contact[=].telecom.system = #email
 * ^contact[=].telecom.value = "support@be-ehealth-standards.atlassian.net"
 * ^content = #fragment
+* ^caseSensitive = true
+* ^experimental = false
 * #BE "Belgium"

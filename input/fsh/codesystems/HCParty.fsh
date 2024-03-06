@@ -2,6 +2,8 @@ CodeSystem: HCParty
 Id: cd-hcparty
 Title: "BeCdHcParty"
 Description: "healthcare party in Belgium."
+* ^caseSensitive = true
+* ^experimental = false
 * ^status = #active
 * ^content = #complete
 * ^version = "1.1.0"

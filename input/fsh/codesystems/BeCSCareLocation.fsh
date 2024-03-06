@@ -15,6 +15,8 @@ Description: "Care Location Code System"
 * ^jurisdiction.coding[0] = $m49.htm#056
 * ^jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
 * ^content = #complete
+* ^caseSensitive = true
+* ^experimental = false
 * #hospital "Hospital"
 * #hospital ^designation[0].language = #fr-BE
 * #hospital ^designation[=].value = "A l’hôpital"
