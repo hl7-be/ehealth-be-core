@@ -1,6 +1,6 @@
 Extension: BeExtCodeableConcept
 Id: be-ext-codeableconcept
-Title: "CodeableConcept Extension"
+Title: "BeExtCodeableConcept"
 Description: "Extension with a CodableConcept"
 * ^context.type = #element
 * ^context.expression = "Element"

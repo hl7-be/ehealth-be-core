@@ -1,7 +1,8 @@
-Instance: be-insurancymembership
+Instance: be-insurancenumber
 InstanceOf: NamingSystem
+Title: "BeInsuranceNumberNamingSystem"
 Usage: #definition
-* name = "BeInsurancymembershipNamingSystem"
+* name = "BeInsuranceNumberNamingSystem"
 * status = #active
 * kind = #identifier
 * date = "2020-06-01"
@@ -10,7 +11,7 @@ Usage: #definition
 * contact.telecom.system = #email
 * contact.telecom.value = "support@be-ehealth-standards.atlassian.net"
 * contact.telecom.use = #work
-* description = "Membership number of a patient with an insurance organization"
+* description = "insurance number"
 * uniqueId.type = #uri
-* uniqueId.value = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/insurancymembership"
+* uniqueId.value = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/insurancenumber"
 * uniqueId.preferred = true

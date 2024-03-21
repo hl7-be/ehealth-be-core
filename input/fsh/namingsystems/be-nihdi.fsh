@@ -1,5 +1,6 @@
 Instance: be-nihdi
 InstanceOf: NamingSystem
+Title: "BeNIHDINamingSystem"
 Usage: #definition
 * name = "BeNIHDINamingSystem"
 * status = #active

@@ -14,7 +14,7 @@ url: https://www.ehealth.fgov.be/standards/fhir/core
 name: hl7.fhir.be.core
 title: "eHealth Platform Federal Core Profiles"
 description: "eHealth Platform Federal Core Profiles"
-status: draft
+status: active
 license: CC0-1.0
 date: 2022-09-01
 version: 2.1.0
@@ -26,15 +26,15 @@ fhirVersion: 4.0.1
 
 # The following two lines correspond to items that used to be in
 # ig.ini but were moved to IG.definition.parameter. For
-# consistency within this file, the names are represented using
-# camelcase, but if authors use the formal parameter names, SUSHI
+# consistency within this file, the     names are represented using
+# camelcase, but if authors use the formal parameter     names, SUSHI
 # will recognize them as well. In either case, they'll be copied
-# to the IG JSON using the formal names.
+# to the IG JSON using the formal     names.
 copyrightYear: 2021+
 releaseLabel: STU1
 
-# The publisher can be a single item or a list, each with a name and
-# optional url and/or email. The first publisher's name will be used
+# The publisher can be a single item or a list, each with a     name and
+# optional url and/or email. The first publisher's     name will be used
 # as IG.publisher.  The contact details and/or additional publishers
 # will be translated into IG.contact values.
 publisher:
@@ -94,8 +94,8 @@ jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
 # look like:
 #resources:
 #  Patient/my-example-patient:
-#    name: My Example Patient
-#    description: An example Patient
+#        name: My Example Patient
+#        description: An example Patient
 #    exampleBoolean: true
 #  Patient/bad-example: omit
 
@@ -107,14 +107,14 @@ jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
 # resource entries with the corresponding groupIds.
 #groups:
 #  GroupA:
-#    name: Group A
-#    description: The Alpha Group
+#        name: Group A
+#        description: The Alpha Group
 #    resources:
 #    - StructureDefinition/animal-patient
 #    - StructureDefinition/arm-procedure
 #  GroupB:
-#    name: Group B
-#    description: The Beta Group
+#        name: Group B
+#        description: The Beta Group
 #    resources:
 #    - StructureDefinition/bark-control
 #    - StructureDefinition/bee-sting
@@ -123,10 +123,10 @@ jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
 # auto-generate the page list, but if the author includes pages in
 # this file, it is assumed that the author will fully manage the
 # pages section and SUSHI will not generate any page entries.
-# The page file name is used as the key. If title is not provided,
-# then the title will be generated from the file name.  If a
+# The page file     name is used as the key. If title is not provided,
+# then the title will be generated from the file     name.  If a
 # generation value is not provided, it will be inferred from the
-# file name extension.  Any subproperties that are valid filenames
+# file     name extension.  Any subproperties that are valid file    names
 # with supported extensions (e.g., .md/.xml) will be treated as
 # sub-pages.
 pages:
@@ -155,7 +155,7 @@ pages:
 
 # The menu property will be used to generate the input/menu.xml file.
 # The menu is represented as a simple structure where the YAML key
-# is the menu item name and the value is the URL. The IG publisher
+# is the menu item     name and the value is the URL. The IG publisher
 # currently only supports one level deep on sub-menus.
 # To provide a custom menu.xml file, do not include this property and
 # include a `menu.xml` file in input/includes.
@@ -164,9 +164,14 @@ menu:
   Guidance: guidance.html
   Conventions: conventions.html
   Artifacts:
-    Profiles: artifacts.html#2
-    Extensions: artifacts.html#3
-    Value Sets: artifacts.html#4
+    Logical Models: artifacts.html#structures-logical-models
+    Profiles: artifacts.html#structures-resource-profiles
+    Date Types: artifacts.html#structures-datatype-profiles
+    Extensions: artifacts.html#structures-extension-profiles
+    Value Sets: artifacts.html#terminology-value-sets
+    Code Systems: artifacts.html#terminology-code-systems
+    Naming Systems: artifacts.html#terminology-naming-systems
+    Examples: artifacts.html#example-example-instances
   Downloads: downloads.html
   Changes: changes.html
   History: https://www.ehealth.fgov.be/standards/fhir/core/history.html
@@ -187,7 +192,7 @@ menu:
 FSHOnly: false
 
 # When set to true, the "short" and "definition" field on the root element of an Extension will
-# be set to the "Title" and "Description" of that Extension. Default is true.
+# be set to the "Title" and "    description" of that Extension. Default is true.
 #applyExtensionMetadataToRoot: false
 
 parameters:
@@ -198,5 +203,38 @@ parameters:
   apply-publisher: true
   apply-version: true
   ipa-comparison: "{last}" # "{current}" | "{last}"
+
+  
+resources:
+  Observation/coded-annotation:
+    name: coded-annotation
+    description: Observation with coded annotation
+  DocumentReference/documentreferencebinary:
+    name: documentreferencebinary
+    description: DocumentReference with binary file
+  DocumentReference/documentreferenceurl:
+    name: documentreferenceurl
+    description: DocumentReference with external URL
+  Organization/organization1:
+    name: organization1
+    description: Belgian organization
+  Patient/patient1:
+    name: patient1
+    description: Belgian Patient
+  Patient/patient2:
+    name: patient2
+    description: Another Belgian Patient
+  Practitioner/practitioner1:
+    name: practitioner1
+    description: Belgian Practitioner
+  PractitionerRole/practitionerrole1:
+    name: practitionerrole1
+    description: Belgian PractitionerRole
+  Provenance/provenance1:
+    name: provenance1
+    description: Belgian Provenance
+  RelatedPerson/relatedperson:
+    name: relatedperson
+    description: Related Person, but with Belgium specific value set
 
 
