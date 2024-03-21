@@ -1,6 +1,8 @@
 Instance: be-civilstate
 InstanceOf: ValueSet
+Title: "Civil State"
 Usage: #definition
+* experimental = false
 * url = "https://www.ehealth.fgov.be/standards/fhir/core/ValueSet/be-civilstate"
 * version = "1.0.0"
 * name = "BeCivilstate"

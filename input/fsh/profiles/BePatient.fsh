@@ -27,6 +27,7 @@ Description: "Belgian federal profile for a patient. Initially based on the func
 * identifier[SSIN] ^definition = "An identifier for this patient according to SSIN (NISS-INSZ.)\r\n\r\nWhen needed to express a SSIN, it SHALL be done according to these guidelines. Other ways to identify a patient using coding systems remain also possible."
 * identifier[SSIN].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin" (exactly)
 * identifier[SSIN].value 1..1
+* identifier obeys be-inv-SSIN
 * name MS
 * name ^definition = "A name associated with the individual. \n\nIt is RECOMMENDED to give at least one familyname and at least one given name when possible and define an 'official' use. When names are given, a consumer SHALL NOT ignore it."
 * telecom ^definition = "A contact detail (e.g. a telephone number or an email address) by which the individual may be contacted.\n\nIt is RECOMMENDED to at least add one phone or email address with clear indication using the .use element whether it is home use, private use,..."

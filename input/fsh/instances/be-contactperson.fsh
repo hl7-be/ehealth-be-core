@@ -1,6 +1,8 @@
 Instance: be-contactperson
 InstanceOf: ValueSet
+Title: "ContactPerson"
 Usage: #definition
+* experimental = false
 * url = "https://www.ehealth.fgov.be/standards/fhir/core/ValueSet/be-contactperson"
 * version = "1.0.0"
 * name = "BeContactPerson"

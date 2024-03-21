@@ -1,6 +1,7 @@
-Empty IG
+BE Core IG
 ---
-This is an empty IG
+
+This is the BE core FHIR IG
 <br> </br>
 ###
 ### Publication
@@ -16,5 +17,7 @@ Issues and change requests are managed here:
 Issues:  __https://github.com/hl7-be/core/issues__  
 Kanban board:  __https://github.com/<handle>/<repo>/projects/1__  
 
----
+
  
+ 
+---
