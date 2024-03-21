@@ -5,6 +5,7 @@ Title: "BeDocumentReference"
 Description: "Belgian federal profile on DocumentReference"
 * subject 1..1 MS
 * subject only Reference(BePatient)
+* author only Reference(BeOrganization or BePractitioner or BePractitionerRole or BePatient or Device or RelatedPerson)
 * author 1..1 MS
 * context.related MS
 * content MS
