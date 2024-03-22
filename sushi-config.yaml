@@ -166,7 +166,7 @@ menu:
   Artifacts:
     Logical Models: artifacts.html#structures-logical-models
     Profiles: artifacts.html#structures-resource-profiles
-    Date Types: artifacts.html#structures-datatype-profiles
+    Data Types: artifacts.html#structures-datatype-profiles
     Extensions: artifacts.html#structures-extension-profiles
     Value Sets: artifacts.html#terminology-value-sets
     Code Systems: artifacts.html#terminology-code-systems
