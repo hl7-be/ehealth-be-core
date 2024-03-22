@@ -1,6 +1,6 @@
 ValueSet: BeVSCdHcParty
 Id: be-vs-cd-hcparty
-Title: "List of health care parties in Belgium"
+Title: "BeVSCdHcParty"
 Description: "List of health care parties in Belgium"
 * ^experimental = false
 * include codes from system HCParty 

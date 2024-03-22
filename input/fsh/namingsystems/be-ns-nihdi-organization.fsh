@@ -1,6 +1,6 @@
 Instance: be-ns-nihdi-organization
 InstanceOf: NamingSystem
-Title: "BeNIHDINamingSystem"
+Title: "BeNIHDIOrganizationNamingSystem"
 Usage: #definition
 * name = "BeNSNIHDIOrganization"
 * status = #active

@@ -1,6 +1,6 @@
 Instance: be-ssin
 InstanceOf: NamingSystem
-Title: "BeNIHDINamingSystem"
+Title: "BeSSINNamingSystem"
 Usage: #definition
 * name = "BeSSINNamingSystem"
 * status = #active

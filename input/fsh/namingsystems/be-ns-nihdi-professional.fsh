@@ -1,6 +1,6 @@
 Instance: be-ns-nihdi-professional
 InstanceOf: NamingSystem
-Title: "BeNIHDINamingSystem"
+Title: "BeNIHDIProfessionalNamingSystem"
 Usage: #definition
 * name = "BeNSNIHDIProfessional"
 * status = #active

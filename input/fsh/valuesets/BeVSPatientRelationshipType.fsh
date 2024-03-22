@@ -1,6 +1,6 @@
 ValueSet: BeVSPatientRelationshipType
 Id: be-vs-patient-relationship-type
-Title: "Patient Relationship Type Value Set"
+Title: "BeVSPatientRelationshipType"
 Description: "Describes the patient relationship type (the relation between the patient and the person implied)"
 * ^version = "1.0.0"
 * ^status = #draft
