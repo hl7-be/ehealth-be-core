@@ -233,5 +233,9 @@ In KMEHR, an address might be expressed using free text or a totally structured 
 <br>In many KMEHR messages there is the need to describe one concept with multiple coding systems. In KMEHR this is done by using multiple &lt;cd&gt; elements. In a FHIR profile, it will be very common to find the datatype to use for this is the Codeable Concept.</br>
 <br>Note there is no S=’LOCAL’ way in FHIR. A local system will be identified by its own unique URI.</br></p>
 
+<a name="bedocumentreference"> </a> 
+<h4>BeDocumentReference</h4>
+<p>Remark regarding release 2.1.0: This profile has been developed for the purpose of being used and possibly further developed for some projects. At this phase, the Working Group expects other projects and broader consensus on this. As a consequence, this profile may be especially subject to changes.</p>
+
   
 </div>
