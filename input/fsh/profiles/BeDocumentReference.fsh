@@ -2,7 +2,7 @@ Profile: BeDocumentReference
 Parent: DocumentReference
 Id: be-documentreference
 Title: "BeDocumentReference"
-Description: "Belgian federal profile on DocumentReference"
+Description: "Belgian federal profile on DocumentReference (see also remark in <a href='./guidance.html#bedocumentreference'>Guidance</a>)"
 * subject 1..1 MS
 * subject only Reference(BePatient)
 * author only Reference(BeOrganization or BePractitioner or BePractitionerRole or BePatient or Device or RelatedPerson)
