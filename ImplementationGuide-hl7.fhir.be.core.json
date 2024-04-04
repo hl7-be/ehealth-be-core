@@ -1,0 +1,491 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "hl7.fhir.be.core",
+  "url": "https://www.ehealth.fgov.be/standards/fhir/core",
+  "version": "2.1.0",
+  "name": "hl7fhirbecore",
+  "title": "eHealth Platform Federal Core Profiles",
+  "status": "active",
+  "date": "2022-09-01",
+  "publisher": "eHealth Platform",
+  "contact": [
+    {
+      "name": "eHealth Platform",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.ehealth.fgov.be/standards/fhir"
+        },
+        {
+          "system": "email",
+          "value": "support@be-ehealth-standards.atlassian.net"
+        }
+      ]
+    },
+    {
+      "name": "Message Structure eHealth",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "support@be-ehealth-standards.atlassian.net",
+          "use": "work"
+        }
+      ]
+    }
+  ],
+  "description": "eHealth Platform Federal Core Profiles",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "BE",
+          "system": "urn:iso:std:iso:3166",
+          "display": "Belgium"
+        }
+      ]
+    }
+  ],
+  "packageId": "hl7.fhir.be.core",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/be-address"
+        },
+        "name": "BeAddress",
+        "description": "Belgain federal profile on address, to provide the possibility in the 'line' element to provide a seperate streetname, housenumber and postal box. It is always RECOMMENDED to give these elements seperately.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/be-cbe"
+        },
+        "name": "BeCBENamingSystem",
+        "description": "BCE/KBO",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/cd-civilstate"
+        },
+        "name": "BeCdCivilState",
+        "description": "Civil state in Belgium.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/cd-contact-person"
+        },
+        "name": "BeCdContactPerson",
+        "description": "Contact person in Belgium.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/cd-fed-country"
+        },
+        "name": "BeCdFedCountry",
+        "description": "FedICT country codes.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/cd-hcparty"
+        },
+        "name": "BeCdHcParty",
+        "description": "healthcare party in Belgium.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/be-civilstate"
+        },
+        "name": "BeCivilState",
+        "description": "Civil State",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/be-coded-annotation"
+        },
+        "name": "BeCodedAnnotation",
+        "description": "Annotation DataType with added CodeableConcept extension element",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/be-communication"
+        },
+        "name": "BeCommunication",
+        "description": "Belgian federal profile on Communication",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/be-contactperson"
+        },
+        "name": "BeContactPerson",
+        "description": "Maximum valuest to define category of a contact person, using the HL7 values and the Belgian CD-CONTACT-PERSON values.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "CodeSystem/be-cs-care-location"
+        },
+        "name": "BeCSCareLocation",
+        "description": "Care Location Code System",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/be-documentreference"
+        },
+        "name": "BeDocumentReference",
+        "description": "Belgian federal profile on DocumentReference (see also remark in [Guidance](./guidance.html#bedocumentreference) )",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/be-ehp"
+        },
+        "name": "BeEhealthPartnerIDNamingSystem",
+        "description": "EHP",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/be-ext-codeableconcept"
+        },
+        "name": "BeExtCodeableConcept",
+        "description": "Extension with a CodableConcept",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/be-ext-recorder"
+        },
+        "name": "BeExtRecorder",
+        "description": "The recorder of the information - note that this may not always be the same as the asserter - when a patient reports to a nurse and the nurse enters the data, the asserter is the patient, but the recorder is the nurse",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/be-ext-simple-note"
+        },
+        "name": "BeExtSimpleNote",
+        "description": "Simple note extension if the element doesn't have a note",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/be-insurancenumber"
+        },
+        "name": "BeInsuranceNumberNamingSystem",
+        "description": "insurance number",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/be-insurancymembership"
+        },
+        "name": "BeInsurancymembershipNamingSystem",
+        "description": "Membership number of a patient with an insurance organization",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/BeModelPatientDocument"
+        },
+        "name": "BeModelPatientDocument",
+        "description": "Data about a patient related document",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/be-nihdi"
+        },
+        "name": "BeNIHDINamingSystem",
+        "description": "RIZIV/INAMI",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/be-ns-nihdi-nomenclature"
+        },
+        "name": "BeNIHDINomenclatureNamingSystem",
+        "description": "NIHDI nomenclature (RIZIV-INAMI)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/be-ns-nihdi-organization"
+        },
+        "name": "BeNIHDIOrganizationNamingSystem",
+        "description": "Naming System - Nihdi - Organization",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/be-ns-nihdi-professional"
+        },
+        "name": "BeNIHDIProfessionalNamingSystem",
+        "description": "Naming System - Nihdi - Professional",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/be-organization"
+        },
+        "name": "BeOrganization",
+        "description": "Belgian federal profile for an organization. Initially based on the functional description of the NIHDI.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/be-patient"
+        },
+        "name": "BePatient",
+        "description": "Belgian federal profile for a patient. Initially based on the functional description of the NIHDI. Special remarks for KMEHR users: following elements in KMEHR are not available in this FHIR resource. If needed, an extension can be defined in a future iteration of these specifications: the 'deathlocation' (location is not available but the death of the patient is expressed by either date or Boolean cfr. infra.), the 'insurancystatus' (covered in a seperate FHIR resource: Coverage), 'insurancymembership' (covered in a seperate FHIR resource: Coverage) and 'profession' (covered in a possible future FHIR resource: OccupationalData.)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/be-practitioner"
+        },
+        "name": "BePractitioner",
+        "description": "Belgian federal profile for a practitioner. Initially based on the functional description of the NIHDI.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/be-practitionerrole"
+        },
+        "name": "BePractitionerRole",
+        "description": "Belgian federal profile for a practitioner role. Initially based on the functional description of the NIHDI.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/be-provenance"
+        },
+        "name": "BeProvenance",
+        "description": "Belgian federal profile for a provenance. Note this profile does not introduce any changes from the base profile but has been created to mark its importance, \nspecifically when FHIR is used in a non-document approach. General use case remarks: 'Provenance of a resource is a record that describes entities and processes involved in producing and delivering or \notherwise influencing that resource.' (cfr. the HL7 base specifications) According to the FHIR specifications, the provenance resource SHALL only be provided when no other resource already plays this role: \nfor a Patient it SHOULD be its managing organization, provenance of an Observation SHOULD be its performer, provenance of an AllergyIntolerance SHOULD be its recorder. \n'Many other FHIR resources contain some elements that represent information about how the resource was obtained, and therefore they overlap with the functionality of the Provenance.' \nSpecial remarks for KMEHR users: The FHIR Provenance resource in general refers to an entity that had something to do with the creation or updating of something else. In a KMEHR context, \nthis is somewhat different – as it is ‘XML document’ based, each KMEHR message has an 'author' element that is responsible.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "NamingSystem/be-ssin"
+        },
+        "name": "BeSSINNamingSystem",
+        "description": "NISS/INSZ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/be-vs-care-location"
+        },
+        "name": "BeVSCareLocation",
+        "description": "Care Location Value Set",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/be-vs-cd-hcparty"
+        },
+        "name": "BeVSCdHcParty",
+        "description": "List of health care parties in Belgium",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/be-vs-patient-relationship-type"
+        },
+        "name": "BeVSPatientRelationshipType",
+        "description": "Describes the patient relationship type (the relation between the patient and the person implied)",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Observation/coded-annotation"
+        },
+        "name": "coded-annotation",
+        "description": "Observation with coded annotation",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/documentreferencebinary"
+        },
+        "name": "documentreferencebinary",
+        "description": "DocumentReference with binary file",
+        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-documentreference"
+      },
+      {
+        "reference": {
+          "reference": "DocumentReference/documentreferenceurl"
+        },
+        "name": "documentreferenceurl",
+        "description": "DocumentReference with external URL",
+        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-documentreference"
+      },
+      {
+        "reference": {
+          "reference": "ActorDefinition/client"
+        },
+        "name": "Example Client",
+        "description": "Client Actor",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "ActorDefinition/server"
+        },
+        "name": "Example Server",
+        "description": "Server Actor",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Organization/organization1"
+        },
+        "name": "organization1",
+        "description": "Belgian organization",
+        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-organization"
+      },
+      {
+        "reference": {
+          "reference": "Patient/patient1"
+        },
+        "name": "patient1",
+        "description": "Belgian Patient",
+        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"
+      },
+      {
+        "reference": {
+          "reference": "Patient/patient2"
+        },
+        "name": "patient2",
+        "description": "Another Belgian Patient",
+        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-example-actor",
+            "valueCanonical": "http://somewhere.org/fhir/uv/myig/ActorDefinition/example"
+          }
+        ],
+        "reference": {
+          "reference": "Practitioner/practitioner1"
+        },
+        "name": "practitioner1",
+        "description": "Belgian Practitioner",
+        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitioner"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-example-actor",
+            "valueCanonical": "http://somewhere.org/fhir/uv/myig/ActorDefinition/example"
+          }
+        ],
+        "reference": {
+          "reference": "PractitionerRole/practitionerrole1"
+        },
+        "name": "practitionerrole1",
+        "description": "Belgian PractitionerRole",
+        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitionerrole"
+      },
+      {
+        "reference": {
+          "reference": "Provenance/provenance1"
+        },
+        "name": "provenance1",
+        "description": "Belgian Provenance",
+        "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-provenance"
+      },
+      {
+        "reference": {
+          "reference": "RelatedPerson/relatedperson"
+        },
+        "name": "relatedperson",
+        "description": "Related Person, but with Belgium specific value set",
+        "exampleBoolean": true
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "IG Home Page",
+          "generation": "html"
+        },
+        {
+          "nameUrl": "guidance.html",
+          "title": "Guidance",
+          "generation": "html"
+        },
+        {
+          "nameUrl": "conventions.html",
+          "title": "Conventions",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "changes.html",
+          "title": "Changes",
+          "generation": "html"
+        },
+        {
+          "nameUrl": "downloads.html",
+          "title": "Downloads",
+          "generation": "html"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2021+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "STU1"
+      },
+      {
+        "code": "show-inherited-invariants",
+        "value": "false"
+      },
+      {
+        "code": "shownav",
+        "value": "true"
+      },
+      {
+        "code": "apply-contact",
+        "value": "true"
+      },
+      {
+        "code": "apply-jurisdiction",
+        "value": "true"
+      },
+      {
+        "code": "apply-publisher",
+        "value": "true"
+      },
+      {
+        "code": "apply-version",
+        "value": "true"
+      },
+      {
+        "code": "ipa-comparison",
+        "value": "{last}"
+      }
+    ]
+  }
+}

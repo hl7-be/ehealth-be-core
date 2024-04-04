@@ -199,4 +199,43 @@ parameters:
   apply-version: true
   ipa-comparison: "{last}" # "{current}" | "{last}"
 
+  
+resources:
+  Observation/coded-annotation:
+    name: coded-annotation
+    description: Observation with coded annotation
+  DocumentReference/documentreferencebinary:
+    name: documentreferencebinary
+    description: DocumentReference with binary file
+  DocumentReference/documentreferenceurl:
+    name: documentreferenceurl
+    description: DocumentReference with external URL
+  Organization/organization1:
+    name: organization1
+    description: Belgian organization
+  Patient/patient1:
+    name: patient1
+    description: Belgian Patient
+  Patient/patient2:
+    name: patient2
+    description: Another Belgian Patient
+  Practitioner/practitioner1:
+    name: practitioner1
+    description: Belgian Practitioner
+    exampleCanonical: https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitioner
+    ^extension[+].url: http://hl7.org/fhir/tools/StructureDefinition/ig-example-actor
+    ^extension[=].valueCanonical: http://somewhere.org/server/fhir
+  PractitionerRole/practitionerrole1:
+    name: practitionerrole1
+    description: Belgian PractitionerRole
+    exampleCanonical: https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitionerrole
+    ^extension[+].url: http://hl7.org/fhir/tools/StructureDefinition/ig-example-actor
+    ^extension[=].valueCanonical: http://somewhere.org/server/fhir
+  Provenance/provenance1:
+    name: provenance1
+    description: Belgian Provenance
+  RelatedPerson/relatedperson:
+    name: relatedperson
+    description: Related Person, but with Belgium specific value set
+
 
