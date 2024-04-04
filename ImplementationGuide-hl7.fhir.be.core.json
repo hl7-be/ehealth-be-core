@@ -1,5 +1,11 @@
 {
   "resourceType": "ImplementationGuide",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-example-actor",
+      "valueCanonical": "http://somewhere.org/fhir/uv/myig/ActorDefinition/example"
+    }
+  ],
   "id": "hl7.fhir.be.core",
   "url": "https://www.ehealth.fgov.be/standards/fhir/core",
   "version": "2.1.0",
@@ -334,14 +340,6 @@
       },
       {
         "reference": {
-          "reference": "ActorDefinition/client"
-        },
-        "name": "Example Client",
-        "description": "Client Actor",
-        "exampleBoolean": true
-      },
-      {
-        "reference": {
           "reference": "ActorDefinition/server"
         },
         "name": "Example Server",
@@ -373,12 +371,6 @@
         "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"
       },
       {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-example-actor",
-            "valueCanonical": "http://somewhere.org/fhir/uv/myig/ActorDefinition/example"
-          }
-        ],
         "reference": {
           "reference": "Practitioner/practitioner1"
         },
@@ -387,12 +379,6 @@
         "exampleCanonical": "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitioner"
       },
       {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-example-actor",
-            "valueCanonical": "http://somewhere.org/fhir/uv/myig/ActorDefinition/example"
-          }
-        ],
         "reference": {
           "reference": "PractitionerRole/practitionerrole1"
         },

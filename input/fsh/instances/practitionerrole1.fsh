@@ -8,7 +8,8 @@ Usage: #example
 * active = true
 * period.start = "2019-08-01T00:00:00.000Z"
 * period.end = "2019-12-01T00:00:00.000Z"
-* practitioner = Reference(https://www.anotherfhirserver.be/fhir/Practitioner/practitioner1) "Dr Katherine Pulaski"
+* practitioner.reference = "https://www.anotherfhirserver.be/fhir/practitioner1"
+* practitioner.display = "Dr Katherine Pulaski"
 * code = $cd-hcparty#persphysician "physician"
 * specialty = $sct#419772000 "Family practice"
 * availableTime[0].daysOfWeek[0] = #mon
