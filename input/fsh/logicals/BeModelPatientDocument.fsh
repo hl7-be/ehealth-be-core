@@ -1,5 +1,6 @@
 Logical: BeModelPatientDocument
 Description: "Data about a patient related document"
+* ^extension[http://hl7.org/fhir/tools/StructureDefinition/logical-target].valueBoolean = true
 * patient 1..1 Identifier "The subject of the document"
 * author 1..1 Identifier "The author of the document, either Practitioner or Organization"
 * category 0..* CodeableConcept "A number of classifiers for the document, each code refines the previous one"
