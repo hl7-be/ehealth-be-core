@@ -60,8 +60,8 @@ jurisdiction: urn:iso:std:iso:3166#BE "Belgium"
 # The dependencies property corresponds to IG.dependsOn. The key is the
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for `uri` and `version`.
-#dependencies:
-#  hl7.fhir.us.core: 3.1.0
+dependencies:
+  hl7.fhir.uv.tools: current
 #  hl7.fhir.us.mcode:
 #    id: mcode
 #    uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
@@ -213,6 +213,9 @@ resources:
   Organization/organization1:
     name: organization1
     description: Belgian organization
+    extension:
+    - url: http://hl7.org/fhir/tools/StructureDefinition/ig-example-actor
+      valueCanonical: https://www.ehealth.fgov.be/standards/fhir/core/ActorDefinition/server
   Patient/patient1:
     name: patient1
     description: Belgian Patient
@@ -223,19 +226,24 @@ resources:
     name: practitioner1
     description: Belgian Practitioner
     exampleCanonical: https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitioner
-    ^extension[+].url: http://hl7.org/fhir/tools/StructureDefinition/ig-example-actor
-    ^extension[=].valueCanonical: http://somewhere.org/server/fhir
+    extension:
+    - url: http://hl7.org/fhir/tools/StructureDefinition/ig-example-actor
+      valueCanonical: https://www.ehealth.fgov.be/standards/fhir/core/ActorDefinition/server
   PractitionerRole/practitionerrole1:
     name: practitionerrole1
     description: Belgian PractitionerRole
     exampleCanonical: https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitionerrole
-    ^extension[+].url: http://hl7.org/fhir/tools/StructureDefinition/ig-example-actor
-    ^extension[=].valueCanonical: http://somewhere.org/server/fhir
+    extension:
+    - url: http://hl7.org/fhir/tools/StructureDefinition/ig-example-actor
+      valueCanonical: https://www.ehealth.fgov.be/standards/fhir/core/ActorDefinition/server
   Provenance/provenance1:
     name: provenance1
     description: Belgian Provenance
   RelatedPerson/relatedperson:
     name: relatedperson
     description: Related Person, but with Belgium specific value set
-
+  ActorDefinition/server:
+    name: Server
+    description: ActorDefinition for simulating an endpoint
+    _omit: true
 
