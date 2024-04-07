@@ -86,7 +86,7 @@ Description: "healthcare party in Belgium."
 * #deptanatomopathology ^designation[+].language = #en
 * #deptanatomopathology ^designation[=].value = "anatomopathology"
 * #deptanatomopathology ^designation[+].language = #de
-* #deptanatomopathology ^designation[=].value = "pathologische Anatomie "
+* #deptanatomopathology ^designation[=].value = "pathologische Anatomie"
 * #deptanesthesiaandresuscitation "anesthesia and reanimation"
 * #deptanesthesiaandresuscitation ^designation[0].language = #fr-BE
 * #deptanesthesiaandresuscitation ^designation[=].value = "anesthésie-réanimation"
@@ -158,7 +158,7 @@ Description: "healthcare party in Belgium."
 * #deptchildandadolescentpsychiatry ^designation[+].language = #en
 * #deptchildandadolescentpsychiatry ^designation[=].value = "child and adolescent psychiatry"
 * #deptchildandadolescentpsychiatry ^designation[+].language = #de
-* #deptchildandadolescentpsychiatry ^designation[=].value = "Kinder- und Jugendpsychiatrie "
+* #deptchildandadolescentpsychiatry ^designation[=].value = "Kinder- und Jugendpsychiatrie"
 * #deptclinicalbiology "clinical biology"
 * #deptclinicalbiology ^designation[0].language = #fr-BE
 * #deptclinicalbiology ^designation[=].value = "biologie clinique"
@@ -419,7 +419,7 @@ Description: "healthcare party in Belgium."
 * #deptinfectiousdisease ^designation[+].language = #en
 * #deptinfectiousdisease ^designation[=].value = "infectious disease"
 * #deptinfectiousdisease ^designation[+].language = #de
-* #deptinfectiousdisease ^designation[=].value = "Infektionskrankheit "
+* #deptinfectiousdisease ^designation[=].value = "Infektionskrankheit"
 * #deptinsurancemedicine "insurance medicine and medical assessment"
 * #deptinsurancemedicine ^designation[0].language = #fr-BE
 * #deptinsurancemedicine ^designation[=].value = "médecine d'assurance et expertise médicale"
@@ -527,7 +527,7 @@ Description: "healthcare party in Belgium."
 * #deptmaxillofacialsurgery ^designation[+].language = #en
 * #deptmaxillofacialsurgery ^designation[=].value = "maxillofacial surgery"
 * #deptmaxillofacialsurgery ^designation[+].language = #de
-* #deptmaxillofacialsurgery ^designation[=].value = "Mund-Kiefer-Gesichtschirurgie "
+* #deptmaxillofacialsurgery ^designation[=].value = "Mund-Kiefer-Gesichtschirurgie"
 * #deptmedicalmicrobiology "medical microbiology"
 * #deptmedicalmicrobiology ^designation[0].language = #fr-BE
 * #deptmedicalmicrobiology ^designation[=].value = "microbiologie médicale"
@@ -779,7 +779,7 @@ Description: "healthcare party in Belgium."
 * #deptpediatricsurgery ^designation[+].language = #en
 * #deptpediatricsurgery ^designation[=].value = "pediatric surgery"
 * #deptpediatricsurgery ^designation[+].language = #de
-* #deptpediatricsurgery ^designation[=].value = "Kinderchirurgie "
+* #deptpediatricsurgery ^designation[=].value = "Kinderchirurgie"
 * #deptpediatry "pediatry"
 * #deptpediatry ^designation[0].language = #fr-BE
 * #deptpediatry ^designation[=].value = "pédiatrie"
@@ -1022,7 +1022,7 @@ Description: "healthcare party in Belgium."
 * #deptthoracicsurgery ^designation[+].language = #en
 * #deptthoracicsurgery ^designation[=].value = "thoracic surgery"
 * #deptthoracicsurgery ^designation[+].language = #de
-* #deptthoracicsurgery ^designation[=].value = "Thoraxchirurgie "
+* #deptthoracicsurgery ^designation[=].value = "Thoraxchirurgie"
 * #depttoxicology "toxicology"
 * #depttoxicology ^designation[0].language = #fr-BE
 * #depttoxicology ^designation[=].value = "toxicologie"
@@ -1158,13 +1158,13 @@ Description: "healthcare party in Belgium."
 * #orgpolyclinic ^designation[=].value = "polyclinic"
 * #orgpolyclinic ^designation[+].language = #de
 * #orgpolyclinic ^designation[=].value = "Poliklinik"
-* #orgpractice "practice "
+* #orgpractice "practice"
 * #orgpractice ^designation[0].language = #fr-BE
 * #orgpractice ^designation[=].value = "cabinet"
 * #orgpractice ^designation[+].language = #nl-BE
 * #orgpractice ^designation[=].value = "praktijk"
 * #orgpractice ^designation[+].language = #en
-* #orgpractice ^designation[=].value = "practice "
+* #orgpractice ^designation[=].value = "practice"
 * #orgpractice ^designation[+].language = #de
 * #orgpractice ^designation[=].value = "Praxis"
 * #orgprevention "prevention service"
@@ -1241,7 +1241,7 @@ Description: "healthcare party in Belgium."
 * #patient ^designation[=].value = "Patient"
 * #persabdpelvrehabandperinatalphysiotherapist "abdomino-pelvic and perinatal physiotherapist"
 * #persabdpelvrehabandperinatalphysiotherapist ^designation[0].language = #fr-BE
-* #persabdpelvrehabandperinatalphysiotherapist ^designation[=].value = "kinésithérapeute périnatal et rééducation abdomino-pelvienne "
+* #persabdpelvrehabandperinatalphysiotherapist ^designation[=].value = "kinésithérapeute périnatal et rééducation abdomino-pelvienne"
 * #persabdpelvrehabandperinatalphysiotherapist ^designation[+].language = #nl-BE
 * #persabdpelvrehabandperinatalphysiotherapist ^designation[=].value = "buik-bekkenrevalidatie en perinatale kinesitherapeut"
 * #persabdpelvrehabandperinatalphysiotherapist ^designation[+].language = #en
@@ -1256,7 +1256,7 @@ Description: "healthcare party in Belgium."
 * #persadministrative ^designation[+].language = #en
 * #persadministrative ^designation[=].value = "administrative staff"
 * #persadministrative ^designation[+].language = #de
-* #persadministrative ^designation[=].value = "Büroangestellte(r) "
+* #persadministrative ^designation[=].value = "Büroangestellte(r)"
 * #persadultpsychiatrist "adult psychiatrist"
 * #persadultpsychiatrist ^designation[0].language = #fr-BE
 * #persadultpsychiatrist ^designation[=].value = "psychiatre pour adultes"
@@ -1275,13 +1275,13 @@ Description: "healthcare party in Belgium."
 * #persaestheticsurger ^designation[=].value = "aesthetic surgeon"
 * #persaestheticsurger ^designation[+].language = #de
 * #persaestheticsurger ^designation[=].value = "plastischer, rekonstruktiver und ästhetischer Chirurg"
-* #persambulancedriver "ambulance driver for non-emergency patient transport\r\n"
+* #persambulancedriver "ambulance driver for non-emergency patient transport"
 * #persambulancedriver ^designation[0].language = #fr-BE
 * #persambulancedriver ^designation[=].value = "ambulancier de transport non urgent de patients"
 * #persambulancedriver ^designation[+].language = #nl-BE
 * #persambulancedriver ^designation[=].value = "ambulancier niet dringend patiëntenvervoer"
 * #persambulancedriver ^designation[+].language = #en
-* #persambulancedriver ^designation[=].value = "ambulance driver for non-emergency patient transport\r\n"
+* #persambulancedriver ^designation[=].value = "ambulance driver for non-emergency patient transport"
 * #persambulancedriver ^designation[+].language = #de
 * #persambulancedriver ^designation[=].value = "Sanitäter-Krankenwagenfahrer im nicht-dringenden Krankentransport"
 * #persambulancefirstaid "ambulance first aid"
@@ -1868,7 +1868,7 @@ Description: "healthcare party in Belgium."
 * #persparamedical ^designation[+].language = #en
 * #persparamedical ^designation[=].value = "paramedical staff"
 * #persparamedical ^designation[+].language = #de
-* #persparamedical ^designation[=].value = "Medizinisches Hilfspersonal "
+* #persparamedical ^designation[=].value = "Medizinisches Hilfspersonal"
 * #perspatientdriver "patient driver (not urgent)"
 * #perspatientdriver ^designation[0].language = #fr-BE
 * #perspatientdriver ^designation[=].value = "transporteur de patient (non urgent)"
@@ -1958,7 +1958,7 @@ Description: "healthcare party in Belgium."
 * #perspharmacyassistant ^designation[+].language = #en
 * #perspharmacyassistant ^designation[=].value = "pharmacy assistant"
 * #perspharmacyassistant ^designation[+].language = #de
-* #perspharmacyassistant ^designation[=].value = "pharmazeutischer Assistent "
+* #perspharmacyassistant ^designation[=].value = "pharmazeutischer Assistent"
 * #persphysicalphysician "physical and rehabilitation doctor"
 * #persphysicalphysician ^designation[0].language = #fr-BE
 * #persphysicalphysician ^designation[=].value = "médecin physique et réadaptation"
