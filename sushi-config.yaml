@@ -1,4 +1,3 @@
-
 # ╭─────────────────────────────────ImplementationGuide-fish.json──────────────────────────────────╮
 # │  The properties below are used to create the ImplementationGuide resource.                     │
 # │  For a list of supported properties, see:                                                      │
@@ -227,8 +226,8 @@ resources:
     description: Belgian Practitioner
     exampleCanonical: https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitioner
     extension:
-    - url: http://hl7.org/fhir/tools/StructureDefinition/ig-example-actor
-      valueCanonical: https://www.ehealth.fgov.be/standards/fhir/core/ActorDefinition/server
+#    - url: http://hl7.org/fhir/tools/StructureDefinition/ig-example-actor
+#      valueCanonical: https://www.ehealth.fgov.be/standards/fhir/core/ActorDefinition/server
   PractitionerRole/practitionerrole1:
     name: practitionerrole1
     description: Belgian PractitionerRole
@@ -242,8 +241,8 @@ resources:
   RelatedPerson/relatedperson:
     name: relatedperson
     description: Related Person, but with Belgium specific value set
-  ActorDefinition/server:
-    name: Server
-    description: ActorDefinition for simulating an endpoint
-    _omit: true
+#  ActorDefinition/server:
+#    name: Server
+#    description: ActorDefinition for simulating an endpoint
+#    _omit: true
 
