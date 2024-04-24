@@ -213,9 +213,9 @@ resources:
   Organization/organization1:
     name: organization1
     description: Belgian organization
-    extension:
-    - url: http://hl7.org/fhir/tools/StructureDefinition/ig-example-actor
-      valueCanonical: https://www.ehealth.fgov.be/standards/fhir/core/ActorDefinition/server
+#    extension:
+#    - url: http://hl7.org/fhir/tools/StructureDefinition/ig-example-actor
+#      valueCanonical: https://www.ehealth.fgov.be/standards/fhir/core/ActorDefinition/server
   Patient/patient1:
     name: patient1
     description: Belgian Patient
@@ -233,9 +233,9 @@ resources:
     name: practitionerrole1
     description: Belgian PractitionerRole
     exampleCanonical: https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-practitionerrole
-    extension:
-    - url: http://hl7.org/fhir/tools/StructureDefinition/ig-example-actor
-      valueCanonical: https://www.ehealth.fgov.be/standards/fhir/core/ActorDefinition/server
+#    extension:
+#    - url: http://hl7.org/fhir/tools/StructureDefinition/ig-example-actor
+#      valueCanonical: https://www.ehealth.fgov.be/standards/fhir/core/ActorDefinition/server
   Provenance/provenance1:
     name: provenance1
     description: Belgian Provenance
