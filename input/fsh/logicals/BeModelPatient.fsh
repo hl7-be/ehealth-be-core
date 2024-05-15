@@ -1,5 +1,6 @@
 Logical: BeModelPatient
 Description: "Data about a patient, according to the [National Register of Persons (Ministry of the Interior)](https://www.ibz.rrn.fgov.be/fileadmin/user_upload/nl/rr/bestand-rr/bestand-RR.pdf), and possibly other sources to be mentioned when used."
+* ^extension[http://hl7.org/fhir/tools/StructureDefinition/logical-target].valueBoolean = true
 * names 0..* BackboneElement "Names"
 * names.usage 0..1 CodeableConcept "Usage context of the name (e.g. NR 11, if the name is used as a pseudonym)"
 * names.familyname 0..1 string "Surname (NR 10)"
