@@ -18,5 +18,5 @@ Description: "Data about a patient, according to the [National Register of Perso
 * residence 0..* Address "Main and other residences (NR 1, 3, 5, 18, 19, 20,22, 23, 24, 26, 27). NR 252 will be covered by other privacy rules."
 * death 0..1 BackboneElement "Date and state of death (place of death is not clinically relevant, and we only care about factual death, not absence (NR 151) or administrative/judicial death (NR 150))"
 * death.date 0..1 dateTime "Date of death"
-* death.state 0..1 boolean "The person is deceased"
+* death.deceased 0..1 boolean "The person is deceased"
 * marital-status 0..1 CodeableConcept "Marital Status"
