@@ -19,4 +19,4 @@ Description: "Data about a patient, according to the [National Register of Perso
 * death 0..1 BackboneElement "Date and state of death (place of death is not clinically relevant, and we only care about factual death, not absence (NR 151) or administrative/judicial death (NR 150))"
 * death.date 0..1 dateTime "Date of death"
 * death.deceased 0..1 boolean "The person is deceased"
-* marital-status 0..1 CodeableConcept "Marital Status"
+* maritalstatus 0..1 CodeableConcept "Marital Status"
