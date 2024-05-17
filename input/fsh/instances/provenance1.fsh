@@ -3,7 +3,7 @@ InstanceOf: BeProvenance
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2019-06-27T08:39:24+02:00"
-* target = Reference(Practitioner/2/_history/1)
+* target = Reference(Practitioner/2)
 * recorded = "2019-06-27T08:39:24+02:00"
 * reason = $v3-ActReason#HOPERAT "Healthcare Operations"
 * activity = $v3-DataOperation#CREATE
