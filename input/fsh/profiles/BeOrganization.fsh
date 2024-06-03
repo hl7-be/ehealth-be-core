@@ -13,7 +13,7 @@ Description: "Belgian federal profile for an organization. Initially based on th
 * identifier contains
     NIHDI 0..* and
     CBE 0..* and
-    SSIN 0..* and
+    //SSIN 0..* and
     EHP 0..*
 * identifier[NIHDI].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi" (exactly)
 * identifier[NIHDI].value 1..
