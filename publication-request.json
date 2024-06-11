@@ -1,7 +1,7 @@
 {
     "package-id": "hl7.fhir.be.core",
-    "version": "2.1.0",
-    "path": "https://www.ehealth.fgov.be/standards/fhir/core/2.1.0",
+    "version": "2.1.1",
+    "path": "https://www.ehealth.fgov.be/standards/fhir/core/2.1.1",
     "mode" : "milestone",
     "milestone" : true,
     "status": "release",
@@ -12,7 +12,7 @@
     "ci-build" : "http://build.fhir.org/ig/hl7-be/core",
     "category": "National Base",
     "introduction": "eHealth FHIR Core Profiles for Belgium",
-  "date": "2024-05-03", 
+  "date": "2024-06-14", 
   "first": false   
   }
   

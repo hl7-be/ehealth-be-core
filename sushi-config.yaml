@@ -16,8 +16,8 @@ title: "eHealth Platform Federal Core Profiles"
 description: "eHealth Platform Federal Core Profiles"
 status: active
 license: CC0-1.0
-date: 2024-05-03
-version: 2.1.0
+date: 2024-06-14
+version: 2.1.1
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
 # it can be a single item OR and array here (but so far SUSHI only
