@@ -1,7 +1,9 @@
 Instance: be-insurancymembership
 InstanceOf: NamingSystem
+Title: "BeInsurancymembershipNamingSystem"
 Usage: #definition
 * name = "BeInsurancymembershipNamingSystem"
+
 * status = #active
 * kind = #identifier
 * date = "2020-06-01"

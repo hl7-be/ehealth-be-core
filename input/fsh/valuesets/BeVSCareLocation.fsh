@@ -1,6 +1,6 @@
 ValueSet: BeVSCareLocation
 Id: be-vs-care-location
-Title: "Care Location Value Set"
+Title: "BeVSCareLocation"
 Description: "Care Location Value Set"
 * ^experimental = false
 * ^version = "1.0.0"

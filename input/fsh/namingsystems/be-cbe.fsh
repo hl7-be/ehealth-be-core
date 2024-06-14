@@ -1,7 +1,8 @@
-Instance: be-ehp
+Instance: be-cbe
 InstanceOf: NamingSystem
+Title: "BeCBENamingSystem"
 Usage: #definition
-* name = "BeEhealthPartnerIDNamingSystem"
+* name = "BeCBENamingSystem"
 * status = #active
 * kind = #identifier
 * date = "2019-06-05"
@@ -10,10 +11,10 @@ Usage: #definition
 * contact.telecom.system = #email
 * contact.telecom.value = "support@be-ehealth-standards.atlassian.net"
 * contact.telecom.use = #work
-* description = "EHP"
+* description = "BCE/KBO"
 * uniqueId[0].type = #uri
-* uniqueId[=].value = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ehp"
+* uniqueId[=].value = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/cbe"
 * uniqueId[=].preferred = true
 * uniqueId[+].type = #oid
-* uniqueId[=].value = "2.16.840.1.113883.3.6777.5.6"
+* uniqueId[=].value = "2.16.840.1.113883.3.6777.5.5"
 * uniqueId[=].preferred = false

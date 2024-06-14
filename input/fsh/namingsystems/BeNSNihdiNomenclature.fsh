@@ -1,6 +1,7 @@
 Instance: be-ns-nihdi-nomenclature
 InstanceOf: NamingSystem
 Description: "NIHDI nomenclature (RIZIV-INAMI)"
+Title: "BeNIHDINomenclatureNamingSystem"
 Usage: #definition
 * name = "BeNSNihdiNomenclature"
 * status = #active

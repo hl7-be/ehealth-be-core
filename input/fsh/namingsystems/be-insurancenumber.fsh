@@ -1,5 +1,6 @@
 Instance: be-insurancenumber
 InstanceOf: NamingSystem
+Title: "BeInsuranceNumberNamingSystem"
 Usage: #definition
 * name = "BeInsuranceNumberNamingSystem"
 * status = #active

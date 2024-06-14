@@ -1,7 +1,8 @@
-Instance: be-ns-nihdi-professional
+Instance: be-ns-nihdi-organization
 InstanceOf: NamingSystem
+Title: "BeNIHDIOrganizationNamingSystem"
 Usage: #definition
-* name = "BeNSNIHDIProfessional"
+* name = "BeNSNIHDIOrganization"
 * status = #active
 * kind = #identifier
 * date = "2020-07-24"
@@ -12,9 +13,9 @@ Usage: #definition
 * contact[+].name = "Message structure"
 * contact[=].telecom.system = #email
 * contact[=].telecom.value = "support@be-ehealth-standards.atlassian.net"
-* description = "Naming System - Nihdi - Professional"
+* description = "Naming System - Nihdi - Organization"
 * jurisdiction.coding[0] = $m49.htm#056
 * jurisdiction.coding[+] = urn:iso:std:iso:3166#BE
 * uniqueId.type = #uri
-* uniqueId.value = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi-professional"
+* uniqueId.value = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi-organization"
 * uniqueId.preferred = true
