@@ -19,6 +19,6 @@ Parent: RelatedPerson
     and role 0..*
 * relationship[relation].coding from BeVSRelation
 * relationship[role].coding from BeVSRole
-* relationship[role].extension contains BeExtPeriod named valid 0..1 MS 
+* relationship[role].coding.extension contains BeExtPeriod named valid 0..1 MS 
 * patient 1..1 MS 
 * patient only Reference(BePatient)

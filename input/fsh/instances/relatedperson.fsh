@@ -5,4 +5,4 @@ InstanceOf: BeRelatedPerson
 * patient = Reference(patient1)
 * relationship[relation] = $sct#25211005
 * relationship[role][+] = $sct#58626002
-* relationship[role][=].extension[valid].valuePeriod.start = "2024-06-14"
+* relationship[role][=].coding.extension[valid].valuePeriod.start = "2024-06-14"
