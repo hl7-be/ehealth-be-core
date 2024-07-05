@@ -13,14 +13,14 @@ Description: "Belgian federal profile for an organization. Initially based on th
 * identifier contains
     NIHDI 0..* and
     CBE 0..* and
-    SSIN 0..* and
+    //SSIN 0..* and
     EHP 0..*
 * identifier[NIHDI].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/nihdi" (exactly)
 * identifier[NIHDI].value 1..
 * identifier[CBE].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/cbe" (exactly)
 * identifier[CBE].value 1..
-* identifier[SSIN].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin" (exactly)
-* identifier[SSIN].value 1..
+//* identifier[SSIN].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ssin" (exactly)
+//* identifier[SSIN].value 1..
 * identifier[EHP].system = "https://www.ehealth.fgov.be/standards/fhir/core/NamingSystem/ehp" (exactly)
 * identifier[EHP].value 1..
 * identifier obeys be-inv-NIHDI and be-inv-SSIN and be-inv-CBE

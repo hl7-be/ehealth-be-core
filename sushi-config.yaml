@@ -226,7 +226,10 @@ resources:
     description: Another Belgian Patient
   Practitioner/practitioner1:
     name: practitioner1
-    description: Belgian Practitioner
+    description: Belgian Practitioner with 11 digit NIHDI
+  Practitioner/practitioner2:
+    name: practitioner2
+    description: Belgian Practitioner with 8 digit NIHDI (deprecated)
   PractitionerRole/practitionerrole1:
     name: practitionerrole1
     description: Belgian PractitionerRole
