@@ -6,8 +6,8 @@ Description: "(Temporary version until approval HL7Belgium WG) Belgian profile i
 * subject only Reference(BePatient or Group)
 * participant.individual only Reference(BePractitioner or BePractitionerRole or RelatedPerson) 
 * participant.individual ^short = "*TODO* RelatedPerson -> BeRelatedPerson"
-* reasonReference only	Reference(Condition or Procedure or BeObservation or ImmunizationRecommendation)
-* reasonReference ^short = "*TODO* Condition -> BeCondition, Procedure -> BeProcedure"
+* reasonReference only	Reference(Condition or Procedure or Observation or ImmunizationRecommendation)
+* reasonReference ^short = "*TODO* Condition -> BeCondition, Procedure -> BeProcedure, Observation -> BeObservation"
 * diagnosis.condition only Reference(Condition or Procedure)
 * diagnosis.condition ^short = "*TODO* Condition -> BeCondition, Procedure -> BeProcedure"
 * hospitalization.origin only Reference(Location or BeOrganization)
